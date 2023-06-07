@@ -6,9 +6,9 @@ SELECT name, email FROM users; specific
 sudo service apache2 start
 
 
-CREATE USER 'Kelvin'@'localhost' IDENTIFIED BY '2#Larking';
+CREATE USER '#'@'localhost' IDENTIFIED BY '2#';
 
-GRANT SELECT ON php_demo.demo_table TO 'Kelvin'@'localhost';
+GRANT SELECT ON php_demo.demo_table TO '#'@'localhost';
 
 
 
